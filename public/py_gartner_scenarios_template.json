@@ -1,0 +1,30 @@
+[
+  {
+    "scenario": {
+      "id": 0,
+      "name": "Example Scenario",
+      "date": "2025-01-01T00:00:00Z",
+      "orgData": {
+        "totalHeadcount": 100,
+        "budget": 500000,
+        "departments": {
+          "executive": 5,
+          "dataAnalytics": 15,
+          "itManagement": 20,
+          "operations": 30,
+          "general": 30
+        }
+      },
+      "usageProfile": {
+        "heavyUsers": 10,
+        "mediumUsers": 30,
+        "lightUsers": 60,
+        "conferenceAttendees": 15
+      }
+    },
+    "recommendation": {
+      "distribution": [],
+      "summary": {}
+    }
+  }
+]
