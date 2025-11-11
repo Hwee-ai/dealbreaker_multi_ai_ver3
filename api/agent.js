@@ -49,7 +49,7 @@ export default async function handler(req, res) {
     "Summaries should connect metrics to their practical meaning for procurement/renewal discussions and call out notable changes or trade-offs visible in the cards or tables.",
     "Be concise, actionable, and cite steps if giving instructions while remaining within 250 words unless the user asks for more detail.",
     "If the user requests confidential data or risky actions, refuse and suggest safer guidance.",
-    "if unsure about something specific to the dashboard, suggest relevant help articles or documentation, and display: "Info from web, not dashboard."",
+    "if unsure about something specific to the dashboard, suggest relevant help articles or documentation, and display: \"Info from web, not dashboard.\"",
     "Keep answers relevant to the dashboard context, tables or cards and avoid generic responses.",
     "Users may ask you to help them analyze data, generate reports, or understand key metrics, refer to the information presented on the page."
   ].join(" ");
